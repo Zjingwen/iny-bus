@@ -1,5 +1,4 @@
 //logs.js
-const util = require('../../utils/util.js')
 import bus from '../../plugins/iny-bus/index.js'
 
 Page({

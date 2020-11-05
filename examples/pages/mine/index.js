@@ -1,6 +1,4 @@
-
 //logs.js
-const util = require('../../utils/util.js')
 import bus from '../../plugins/iny-bus/index.js'
 
 Page({
@@ -9,20 +7,20 @@ Page({
     value: ''
   },
   onLoad: function () {
-    
+
   },
-  onInput (e) {
+  onInput(e) {
     this.setData({
       value: e.detail.value
     })
   },
-  submit () {
+  submit() {
     bus.emit('postMessage', '我是我的页面:' + this.data.value)
   },
-  call () {
+  call() {
     bus.emit('callMe', '10010')
   },
-  remind () {
+  remind() {
     bus.emit('remindMe', '10010')
   }
 })

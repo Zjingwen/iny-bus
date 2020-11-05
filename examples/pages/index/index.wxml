@@ -1,4 +1,4 @@
 <!--index.wxml-->
 <view class="container">
-  <view wx:for="{{msg}}" wx:key="{{index}}"> {{ item }} </view>
+  <view wx:for="{{msg}}" wx:key="index"> {{ item }} </view>
 </view>
