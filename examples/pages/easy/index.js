@@ -2,6 +2,9 @@
 import bus from '../../plugins/iny-bus/index.js'
 //获取应用实例
 Page(bus.page({
+  onLoad() {
+    console.log(this)
+  },
   data: {
     msg: ['简化用法消息']
   },
@@ -34,8 +37,5 @@ Page(bus.page({
       },
       once: true
     }
-  },
-  onLoad() {
-    console.log(this)
   }
 }))

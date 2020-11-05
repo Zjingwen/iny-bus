@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/index2/index",
+    "pages/easy/index",
     "pages/logs/logs",
     "pages/mine/index"
   ],
@@ -15,19 +15,27 @@
     "list": [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath": "image/favorites-fill_1.png",
+        "selectedIconPath": "image/favorites-fill_2.png"
       },
       {
-        "pagePath": "pages/index2/index",
-        "text": "简化"
+        "pagePath": "pages/easy/index",
+        "text": "简化",
+        "iconPath": "image/favorites-fill_1.png",
+        "selectedIconPath": "image/favorites-fill_2.png"
       },
       {
         "pagePath": "pages/logs/logs",
-        "text": "日志"
+        "text": "日志",
+        "iconPath": "image/favorites-fill_1.png",
+        "selectedIconPath": "image/favorites-fill_2.png"
       },
       {
         "pagePath": "pages/mine/index",
-        "text": "我的"
+        "text": "我的",
+        "iconPath": "image/favorites-fill_1.png",
+        "selectedIconPath": "image/favorites-fill_2.png"
       }
     ]
   },
